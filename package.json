@@ -22,12 +22,13 @@
     "@magic/mime-types": "0.0.2",
     "@magic/types": "0.1.11",
     "@webboot/crypto": "github:webboot/crypto",
+    "@webboot/db": "github:webboot/db",
     "@webboot/keys": "github:webboot/keys"
   },
   "devDependencies": {
-    "@magic/cli": "0.0.22",
+    "@magic/cli": "0.0.23",
     "@magic/format": "0.0.7",
-    "@magic/fs": "0.0.3",
+    "@magic/fs": "0.0.4",
     "@magic/test": "0.1.33"
   },
   "keywords": [
