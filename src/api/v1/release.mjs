@@ -7,9 +7,7 @@ import crypto from '@webboot/crypto'
 
 const libName = '@webboot/api/v1/release'
 
-export const release = async (req, res) => {
-  const headers = { 'Content-Type': 'text/plain' }
-
+export default async (req, res) => {
   if (req.method !== 'POST') {
     const code = 405
     const body = `${libName}: Method not allowed. use POST`
@@ -17,7 +15,6 @@ export const release = async (req, res) => {
     return {
       body,
       code,
-      headers,
     }
   }
 
@@ -36,7 +33,6 @@ export const release = async (req, res) => {
     return {
       body,
       code,
-      headers,
     }
   }
 
@@ -56,7 +52,6 @@ export const release = async (req, res) => {
     return {
       body,
       code,
-      headers
     }
   }
 
@@ -69,17 +64,15 @@ export const release = async (req, res) => {
     return {
       body,
       code,
-      headers,
     }
   }
 
   const code = 200
   const href = 'https://builds.webboot.org/'
-  const body = `received request add added it to the queues. to see the status visit: ${href}`
+  const body = `received request and added it to the queues. to see the status visit: ${href}/TO_BE_DONE`
 
   return {
     body,
     code,
-    headers,
   }
 }
