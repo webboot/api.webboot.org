@@ -20,7 +20,7 @@
     "@grundstein/server": "github:grundstein/server",
     "@magic/error": "0.0.5",
     "@magic/log": "0.1.4",
-    "@magic/mime-types": "0.0.2",
+    "@magic/mime-types": "0.0.3",
     "@magic/types": "0.1.11",
     "@webboot/crypto": "github:webboot/crypto",
     "@webboot/db": "github:webboot/db",
