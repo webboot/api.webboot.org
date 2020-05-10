@@ -21,7 +21,7 @@
     "@magic/error": "0.0.5",
     "@magic/log": "0.1.4",
     "@magic/mime-types": "0.0.2",
-    "@magic/types": "0.1.11",
+    "@magic/types": "0.1.12",
     "@webboot/crypto": "github:webboot/crypto",
     "@webboot/db": "github:webboot/db",
     "@webboot/keys": "github:webboot/keys"
