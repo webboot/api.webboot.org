@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@grundstein/server": "github:grundstein/server",
-    "@magic/error": "0.0.5",
+    "@magic/error": "0.0.7",
     "@magic/log": "0.1.4",
     "@magic/mime-types": "0.0.2",
     "@magic/types": "0.1.11",
